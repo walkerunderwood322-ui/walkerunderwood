@@ -1,0 +1,54 @@
+Build me a personal website using Next.js, TypeScript, and Tailwind CSS.
+
+DESIGN STYLE:
+- Minimal and clean, inspired by paulstamatiou.com and brianlovin.com
+- Neutral color palette: white background, dark text, subtle gray accents
+- Generous white space — let the content breathe
+- Simple sans-serif typography
+- No flashy animations, no gradients, no loud colors
+- Feels personal and handcrafted, not like a template
+
+SITE STRUCTURE — one page with these sections:
+
+1. HEADER / NAV
+- My name: Walker Underwood
+- Simple nav links: About, Work, Life, Contact
+- Clean and minimal, no logo needed
+
+2. HERO SECTION
+- Headline: "Walker Underwood"
+- Subheadline: "Young entrepreneur obsessed with building a good life."
+- Short intro paragraph: "I build things — homes, businesses, and skills. Relocating to Austin, TX. Always learning, always moving."
+- Keep it simple, left-aligned, lots of white space
+
+3. WORK SECTION (professional side)
+- Section title: "Work"
+- Show 2 things:
+  - Underwood Home Improvement — "Residential renovation company in Blue Ridge, GA. We turn new builds into personalized homes.”
+  - Currently exploring — “AI, Business Growth, and roles at the intersection of AI and people."
+- Simple card or list style
+
+4. LIFE SECTION (hobby/human side)
+- Section title: "Life"
+- Short paragraph: "Outside of work I'm backpacking mountains, learning about AI, watching podcasts, and figuring out what a good life actually looks like."
+- List of interests as simple tags or a clean list: Hiking, Backpacking, AI, Podcasts, Videographing
+
+5. PRINCIPLES SECTION
+- Section title: "How I operate"
+- Three simple cards or lines:
+  - "Willing to learn" — I don't need to have all the answers. I just need to stay curious.
+  - "Willing to be different" — I'd rather do something real than something safe.
+  - "Bias toward action" — Done is better than perfect. Move, then adjust.
+
+6. CONTACT SECTION
+- Section title: "Get in touch"
+- Simple line: "I'm always open to interesting conversations."
+- Placeholder email: walkerunderwood322@gmail.com
+- Keep it minimal — no big form needed
+
+TECHNICAL REQUIREMENTS:
+- All in one file: app/page.tsx
+- Use Tailwind CSS classes only for styling
+- TypeScript
+- Mobile responsive
+- Clean, readable code with simple comments

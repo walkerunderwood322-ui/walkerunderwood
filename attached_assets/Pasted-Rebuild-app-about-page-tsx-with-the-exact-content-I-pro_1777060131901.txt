@@ -1,0 +1,62 @@
+Rebuild app/about/page.tsx with the exact content I provide below. 
+Do not change the wording. Do not summarize or rewrite it.
+Keep the same dark theme, font, and design as the rest of the site.
+
+DESIGN:
+- Same nav at the top
+- Large heading: "Hello"
+- Subheading: "I'm Walker — a builder."
+- Then the bio flows as natural paragraphs, no bullet points
+- Bold section headers for Work, How I Operate, and Elsewhere
+- Thin divider lines between major sections
+- No cards, no boxes, no icons
+- Small muted uppercase labels for section headers
+- Same style as the rest of the site
+
+EXACT BIO CONTENT — use word for word:
+
+Hello
+I'm Walker — a builder.
+
+Homes, websites, videos. Maybe one day autonomous humanoid robots or 
+defense technology. The medium changes. The obsession with quality doesn't.
+
+I believe that being a great builder requires more than good intentions. 
+It takes first principles thinking — questioning everything, diving deep, 
+understanding the constraints of whatever you're making. That's how I 
+elevate the quality of what I put into the world.
+
+I'm 20 years old and live in Blue Ridge, GA with my future wife Kylie. 
+We're planning to relocate to Austin, TX soon — I'm hoping that expanding 
+my footprint on the internet helps me land the job that gets us there. 
+Before Underwood Home Improvement I was a freelance marketer. 
+I'm always building something.
+
+At 18 I started Underwood Home Improvement. I noticed something simple: 
+there were a lot of newly built houses near me, but they were just that — 
+houses. The people moving to the north Georgia mountains were building 
+their forever homes, but once the builders left they realized quickly that 
+a brand new house still needs a lot of work to actually feel like home. 
+Fencing. Bonus rooms. Garages. Doggy doors. The details that make it theirs.
+
+I ran every part of it — sales, marketing, accounting, and most importantly 
+making sure every customer got the highest quality work I could deliver. 
+It's been great. But I'm ready to take what I've built and point it at 
+something new.
+
+BOLD SECTION HEADERS — add these after the bio:
+
+**Work**
+- Underwood Home Improvement — Founder — 2022–Present
+- Content Creation / Social Media — Currently exploring
+- Job searching — AI and tech companies, Austin TX
+
+**How I operate**
+- Willing to learn — staying curious beats knowing everything
+- Willing to be different — real over safe, every time
+- Bias toward action — done beats perfect, move then adjust
+
+**Elsewhere**
+- Twitter/X: @walkerunderwood
+- LinkedIn: /in/walkerunderwood
+- Instagram: @walkerunderwood

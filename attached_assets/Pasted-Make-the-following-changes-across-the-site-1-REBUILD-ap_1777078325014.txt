@@ -1,0 +1,57 @@
+Make the following changes across the site:
+
+1. REBUILD app/life/page.tsx WITH THIS EXACT CONTENT:
+
+Use the same dark theme, font, and design as the rest of the site.
+Same nav at top.
+Large heading: "Life"
+Then flowing paragraphs, no bullet points.
+After the bio, list interests as simple clean tags.
+Add a photo after the heading — use the image at /backpacking.jpg
+Display it as a full width, slightly rounded image with some margin below it.
+
+EXACT CONTENT — word for word:
+
+I'm a strange mix — equal parts outdoorsman and tech nerd. Some days 
+I don't leave my office. Other days I'm deep in the mountains with no 
+signal. Both feel completely natural to me.
+
+Outside I'm hiking, backpacking, shooting, fishing, and almost always 
+filming something. Inside I'm gaming, watching anime, learning new skills, 
+and building things with AI. There's almost always a podcast or a book 
+playing in the background. Headphones are basically a permanent fixture.
+
+Right now I'm obsessed with backpacking. There's something about stripping 
+everything down to what fits on your back and disappearing into the 
+mountains for a few days that resets everything.
+
+But all of it — the outdoors, the tech, the building — comes back to the 
+same thing. I'm trying to build a rich life. And I don't mean rich in 
+money. I mean rich in the most valuable thing there is — time. Time spent 
+on work I actually care about. Time in places that make me feel alive. 
+Time with people worth spending it on.
+
+That's what I'm building toward.
+
+INTERESTS — display as simple minimal tags below the bio:
+Hiking, Backpacking, Shooting, Fishing, Videography, Gaming, Anime, AI, 
+Podcasts, Books
+
+2. ADD PHOTO TO app/about/page.tsx:
+- Add a headshot image using /headshot.jpg
+- Place it near the top, right after the "I'm Walker — a builder" 
+  subheading
+- Display it as a small rounded circle, centered or left aligned, 
+  nothing flashy
+
+3. MOVE ALL SOCIAL LINKS TO app/contact/page.tsx:
+- Remove social links from the about page entirely
+- On the contact page, list these with correct URLs:
+  Twitter/X — https://x.com/Walker7211_
+  LinkedIn — https://www.linkedin.com/in/WalkerUnderwood
+- Keep the same minimal style as the rest of the site
+- Format them as clean clickable links, open in a new tab
+- Keep the existing contact page intro text above the links
+
+4. REMOVE social links from app/about/page.tsx Elsewhere section
+   and delete the Elsewhere section entirely from the about page

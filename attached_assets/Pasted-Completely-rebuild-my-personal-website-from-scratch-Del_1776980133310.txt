@@ -1,0 +1,70 @@
+Completely rebuild my personal website from scratch. Delete the old single-page version and create a proper multi-page Next.js site with dark theme.
+
+OVERALL DESIGN:
+- Dark theme throughout: background #0a0a0a, text #e5e5e5, subtle accents #2a2a2a
+- Minimal, clean typography — use the Inter font from Google Fonts
+- Lots of breathing room and whitespace
+- Thin subtle borders using #1f1f1f for dividers
+- Small muted text for labels/categories in #666666
+- Inspired by paulstamatiou.com — simple, personal, typographic
+- NO cards with heavy borders, NO gradients, NO shadows, NO flashy elements
+- Links should be subtle — slightly lighter than body text, no underline by default
+
+PAGE STRUCTURE — create these separate pages:
+
+1. app/page.tsx — HOME
+- Simple nav at top: "Walker Underwood" on the left, links on the right: About, Work, Life, Contact
+- Hero: Large heading "Walker Underwood" then below it in smaller muted text: "Young entrepreneur obsessed with building a good life."
+- Then a short bio paragraph: "I build things — homes, businesses, and skills. Based in Blue Ridge, GA, relocating to Austin, TX. Always learning, always moving."
+- Below that, a simple bullet list (no bullets, just clean lines) of quick facts:
+  * Founder of Underwood Home Improvement
+  * Exploring content creation and AI
+  * Backpacker, hiker, outdoor obsessive
+- Then a "Read more about me →" link pointing to /about
+- Below that, a thin divider line
+- Section heading "Work" in small muted uppercase letters
+- Two line items listed simply:
+  * Underwood Home Improvement — Residential renovation, Blue Ridge GA
+  * Currently exploring — Content creation, AI, social media
+- "See more →" link to /work
+- Another thin divider
+- Section heading "Life" in small muted uppercase letters  
+- One short line about interests, then simple comma-separated list of interests: Hiking, Backpacking, Videography, AI, Podcasts, Gaming
+- "Read more →" link to /life
+
+2. app/about/page.tsx — ABOUT PAGE
+- Same nav at top
+- Heading: "About"
+- Full bio section: "I'm Walker Underwood, a young entrepreneur based in Blue Ridge, GA, soon relocating to Austin, TX. I started Underwood Home Improvement to turn newly built houses into personalized homes. Now I'm expanding — into content creation, AI, and whatever comes next."
+- Section: "How I operate" with three principles listed simply:
+  * Willing to learn — I don't need all the answers. Just stay curious.
+  * Willing to be different — Real over safe, every time.
+  * Bias toward action — Done beats perfect. Move, then adjust.
+- Section: "Currently" — what I'm doing right now bullet list style
+
+3. app/work/page.tsx — WORK PAGE
+- Same nav
+- Heading: "Work"
+- Underwood Home Improvement section with description
+- Currently exploring section
+
+4. app/life/page.tsx — LIFE PAGE
+- Same nav
+- Heading: "Life"  
+- Short paragraph about the outdoors, backpacking, what a good life means to Walker
+- Interests listed cleanly
+
+5. app/contact/page.tsx — CONTACT PAGE
+- Same nav
+- Heading: "Get in touch"
+- Simple line: "I'm always open to interesting conversations."
+- Email: walker@walkerunderwood.com
+- Clean, minimal, nothing else
+
+TECHNICAL:
+- Dark theme on every page using Tailwind dark classes or just set bg-[#0a0a0a] globally in layout.tsx
+- Set the global background and text color in layout.tsx so every page inherits it
+- Use Inter font from Google Fonts loaded in layout.tsx
+- Mobile responsive
+- TypeScript
+- Keep code clean and commented
