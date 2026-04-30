@@ -15,11 +15,11 @@ export default function Contact() {
 
         <p>
           <a
-            href="mailto:walkerunderwood322@gmail.com"
+            href="mailto:walker@walkerunderwood.com"
             data-testid="link-email"
             className="text-[#e5e5e5] hover:text-white transition-colors"
           >
-            walkerunderwood322@gmail.com
+            walker@walkerunderwood.com
           </a>
         </p>
       </div>
