@@ -26,14 +26,12 @@ const categories: GearCategory[] = [
   {
     label: "Videography",
     items: [
-      { name: "Sony ZV-E10", tag: "Camera" },
-      { name: "Sony 10-18mm OSS", tag: "Lens" },
-      { name: "GoPro Hero 12", tag: "Action Cam" },
-      { name: "Insta360 X4", tag: "360 Camera" },
+      { name: "Sony ZV-E10", tag: "Camera", image: "/gear/Sony-ZVE10.jpg" },
+      { name: "Sony 10-18mm OSS", tag: "Lens", image: "/gear/Sony-10-18.jpg" },
       { name: "DJI Mini 4 Pro", tag: "Drone", image: "/gear/DJI-Mini-Pro.HEIC" },
       { name: "DJI Mic Mini", tag: "Audio", image: "/gear/DJI-Mic-Mini.HEIC" },
       { name: "Shure MV7+", tag: "Podcast Mic", image: "/gear/Sure-MV7+.HEIC" },
-      { name: "Amaran Pano 60c", tag: "Lighting" },
+      { name: "Amaran Pano 60c", tag: "Lighting", image: "/gear/Amaran-pano-60c.png" },
     ],
   },
   {
@@ -50,7 +48,6 @@ const categories: GearCategory[] = [
       { name: "iPhone 15 Plus", tag: "Phone", image: "/gear/Iphone-15.jpg" },
       { name: "MacBook Pro M4", tag: "Computer", image: "/gear/Macbook-M4-Pro.HEIC" },
       { name: "MacBook Air M4", tag: "Computer", image: "/gear/Macbook-M4-Air.HEIC" },
-      { name: "iPad Pro", tag: "Tablet" },
       { name: "NiteCore NB20000", tag: "Power Bank", image: "/gear/NiteCore_Nb20000.HEIC" },
       { name: "Nuphy Air75", tag: "Keyboard", image: "/gear/Nuphy-Air75.HEIC" },
       { name: "Beyerdynamic DT 770 Pro X", tag: "Headphones", image: "/gear/Beyerdynamic-DT-770-ProX.HEIC" },
