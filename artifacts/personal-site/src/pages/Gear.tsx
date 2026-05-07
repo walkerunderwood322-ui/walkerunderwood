@@ -56,6 +56,17 @@ const categories: GearCategory[] = [
       { name: "Beyerdynamic DT 770 Pro X", tag: "Headphones" },
     ],
   },
+  {
+    label: "Want",
+    items: [
+      { name: "ULANZI JJ06 GlideGo Tripod", tag: "Tripod" },
+      { name: "Sigma 17-40mm f/1.8 ART", tag: "Lens" },
+      { name: "Sony a6700", tag: "Camera" },
+      { name: "Dell U2725QE", tag: "Monitor" },
+      { name: "Aer Travel Pack 4", tag: "Bag" },
+      { name: "Roost V3 Laptop Stand", tag: "Laptop Stand" },
+    ],
+  },
 ];
 
 export default function Gear() {
